@@ -1,1 +1,91 @@
- 
+/* police general */
+body
+{
+    background-color: azure;
+    margin: 0;
+}
+/* barre de navigation */
+
+.barnav {
+    background-color: #eee;
+     border-radius: 10px;
+     font-family: 'Times New Roman', Times, serif;
+      
+}
+.links-nav {
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+
+
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    
+   
+   
+}
+nav li{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+nav li a{
+    display: flex;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px ;
+    border-radius: 2px 2px 2px 2px ;
+    justify-content: center;
+}
+nav li a:hover:not(.active) 
+{
+    background-color: turquoise;
+}
+.active
+{
+    background-color: steelblue;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+#accueil {
+  background: #eee;
+  color: black;
+  text-align: center;
+}
+/* Formulaire */
+form input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  margin-top: 60px;
+  
+  
+}
