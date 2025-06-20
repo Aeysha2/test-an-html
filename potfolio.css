@@ -2,7 +2,7 @@
 body
 {
     background-color: azure;
-    margin: 0;
+    margin-top: auto;
 }
 /* barre de navigation */
 
@@ -46,13 +46,13 @@ nav li a{
     text-decoration: none;
     color:black;
     text-align: center;
-    box-shadow: 2px 2px 2px 2px ;
+    
     border-radius: 2px 2px 2px 2px ;
     justify-content: center;
 }
 nav li a:hover:not(.active) 
 {
-    background-color: turquoise;
+    background-color: gray;
 }
 .active
 {
@@ -70,7 +70,7 @@ nav li a:hover:not(.active)
   color: black;
   text-align: center;
 }
-/* Formulaire */
+/* pour le Formulaire de contact */
 form input {
   width: 100%;
   max-width: 500px;
@@ -80,6 +80,12 @@ form input {
   border-radius: 5px;
   display: flex;
   justify-content: center;
+}
+/*pour le boutton envoyer du formulaire contact*/
+form button {
+  background-color: green;
+  box-shadow: 2px 2px 2px 2px;
+
 }
 footer {
   text-align: center;
